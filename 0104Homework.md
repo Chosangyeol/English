@@ -106,6 +106,40 @@ List of sequence players to cache and clean up when safe.
 
 
 
+WidgetTree
+
+The widget tree contained inside this user widget initialized by the blueprint.
+
+Blueprint에 의해 초기화된 유저 위젯의 내부에 포함된 위젯 트리입니다.
+
+
+
+Functions 함수
+
+
+
+AddToPlayerScreen
+
+Adds the widget to the game's viewport in a section dedicated to the player.
+
+플레이어 전용 섹션의 게임 뷰포트에 위젯을 추가합니다.
+
+
+
+AddToScreen
+
+Adds the widget to the screen, either to the viewport or to the player's screen depending on if the LocalPlayer is null.
+
+LocalPlayer이 null인지에 따라서 뷰포트 혹은 플레이어의 화면에 위젯을 추가합니다.
+
+
+
+BindToAnimationEvent
+
+Allows binding to a specific animation's event.
+
+특정 애니메이션 이벤트를 Binding 한다.
+
 
 
 
